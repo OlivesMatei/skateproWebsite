@@ -199,3 +199,37 @@ rep (1) {
     margin-bottom: 10px;
     color: rgb(221, 21, 115);
   }
+
+
+/* Phone display*/
+/* Set a default font size for the entire page */
+html {
+  font-size: 16px;
+}
+
+/* Target mobile devices with a max-width of 600px */
+@media screen and (max-width: 600px) {
+  /* Set font size to be smaller for mobile devices */
+  html {
+    font-size: 14px;
+  }
+  
+  /* Make sure images don't overflow */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+  .header {
+    padding: 10px;
+  }
+  
+  .content {
+    padding: 10px;
+  }
+  
+  .footer {
+    padding: 10px;
+  }
+}
